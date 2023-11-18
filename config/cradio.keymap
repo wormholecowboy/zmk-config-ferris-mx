@@ -104,7 +104,7 @@
 &kp N1                      &kp N2             &kp N3                 &kp N4                     &kp N5                  &kp N6                 &kp N7                    &kp N8                           &kp N9                   &kp N0
 &kp TILDE                   &kp GRAVE          &kp LEFT_BRACE         &kp RIGHT_BRACE            &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp LBKT                  &kp RIGHT_BRACKET                &kp UNDERSCORE           &kp EQUAL
 &brml LEFT_GUI EXCLAMATION  &brml LEFT_ALT AT  &brml LEFT_SHIFT HASH  &brml LEFT_CONTROL DOLLAR  &kp PERCENT             &kp CARET              &brmr RIGHT_CONTROL APOS  &brmr RIGHT_SHIFT DOUBLE_QUOTES  &brmr LEFT_ALT ASTERISK  &brmr RIGHT_GUI BACKSLASH
-                                                                      &kp MINUS                  &kp PLUS                &trans                 &trans
+                                                                      &kp MINUS                  &kp PLUS                &kp AMPERSAND          &trans
             >;
         };
 
