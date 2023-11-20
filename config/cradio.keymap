@@ -47,6 +47,7 @@
         numpad {
             bindings = <&to 4>;
             key-positions = <31 33>;
+            slow-release;
         };
 
         enter {
@@ -93,6 +94,20 @@
             layers = <2>;
             slow-release;
         };
+
+        ampersand {
+            bindings = <&kp AMPERSAND>;
+            key-positions = <6 7>;
+            slow-release;
+            layers = <2>;
+        };
+
+        star {
+            bindings = <&kp ASTERISK>;
+            key-positions = <7 8>;
+            slow-release;
+            layers = <2>;
+        };
     };
 
     keymap {
@@ -100,10 +115,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W             &kp E               &kp R                 &kp T            &kp Y      &kp U                  &kp I                    &kp O                  &kp P
-&kp A             &kp S             &kp D               &kp F                 &kp G            &kp H      &kp J                  &kp K                    &kp L                  &kp SEMI
-&brml LEFT_GUI Z  &brml LEFT_ALT X  &brml LEFT_SHIFT C  &brml LEFT_CONTROL V  &kp B            &kp N      &brmr RIGHT_CONTROL M  &brmr RIGHT_SHIFT COMMA  &brmr LEFT_ALT PERIOD  &brmr RIGHT_GUI SLASH
-                                                        &lt 1 ESCAPE          &kp BACKSPACE    &kp SPACE  &lt 2 ENTER
+&kp Q             &kp W             &kp E               &kp R                 &kp T           &kp Y          &kp U                  &kp I                    &kp O                  &kp P
+&kp A             &kp S             &kp D               &kp F                 &kp G           &kp H          &kp J                  &kp K                    &kp L                  &kp SEMI
+&brml LEFT_GUI Z  &brml LEFT_ALT X  &brml LEFT_SHIFT C  &brml LEFT_CONTROL V  &kp B           &kp N          &brmr RIGHT_CONTROL M  &brmr RIGHT_SHIFT COMMA  &brmr LEFT_ALT PERIOD  &brmr RIGHT_GUI SLASH
+                                                        &lt 1 ESCAPE          &lt 2 RETURN    &kp BACKSPACE  &kp SPACE
             >;
         };
 
@@ -121,7 +136,7 @@
 &kp N1                      &kp N2             &kp N3                 &kp N4                     &kp N5         &kp N6         &kp N7                    &kp N8                           &kp N9                   &kp N0
 &kp TILDE                   &kp GRAVE          &kp LEFT_BRACE         &kp RIGHT_BRACE            &kp MINUS      &kp PLUS       &kp LBKT                  &kp RIGHT_BRACKET                &kp UNDERSCORE           &kp EQUAL
 &brml LEFT_GUI EXCLAMATION  &brml LEFT_ALT AT  &brml LEFT_SHIFT HASH  &brml LEFT_CONTROL DOLLAR  &kp PERCENT    &kp CARET      &brmr RIGHT_CONTROL APOS  &brmr RIGHT_SHIFT DOUBLE_QUOTES  &brmr LEFT_ALT ASTERISK  &brmr RIGHT_GUI BACKSLASH
-                                                                      &kp BACKSPACE              &kp SPACE      &kp AMPERSAND  &trans
+                                                                      &none                      &none          &kp BACKSPACE  &kp SPACE
             >;
         };
 
@@ -136,10 +151,10 @@
 
         numpad {
             bindings = <
-&trans  &trans      &kp EQUAL      &trans        &trans    &kp PLUS    &kp N7     &kp N8  &kp N9  &kp ASTRK
-&trans  &kp PERIOD  &kp MINUS      &kp PLUS      &trans    &kp MINUS   &kp N4     &kp N5  &kp N6  &kp N0
-&to 0   &trans      &kp BACKSLASH  &kp ASTERISK  &trans    &kp EQUAL   &kp N1     &kp N2  &kp N3  &kp BSLH
-                                   &trans        &trans    &kp PERIOD  &kp ENTER
+&trans  &trans      &kp EQUAL      &trans        &trans       &kp PLUS    &kp N7     &kp N8  &kp N9  &kp ASTRK
+&trans  &kp PERIOD  &kp MINUS      &kp PLUS      &trans       &kp MINUS   &kp N4     &kp N5  &kp N6  &kp N0
+&to 0   &trans      &kp BACKSLASH  &kp ASTERISK  &trans       &kp EQUAL   &kp N1     &kp N2  &kp N3  &kp BSLH
+                                   &trans        &kp ENTER    &kp PERIOD  &kp ENTER
             >;
         };
     };
