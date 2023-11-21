@@ -157,5 +157,14 @@
                                    &kp EQUAL     &kp ENTER    &kp SPACE   &kp BACKSPACE
             >;
         };
+
+        media {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans    &trans          &trans     &trans      &trans        &trans
+&trans  &trans  &trans  &trans  &trans    &trans          &trans     &kp K_MUTE  &kp C_VOL_DN  &kp C_VOLUME_UP
+&to 0   &trans  &trans  &trans  &trans    &to 0           &trans     &trans      &kp ESCAPE    &kp SPACE
+                        &trans  &trans    &kp LEFT_ARROW  &kp RIGHT
+            >;
+        };
     };
 };
