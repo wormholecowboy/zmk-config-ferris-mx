@@ -108,6 +108,13 @@
             slow-release;
             layers = <2>;
         };
+
+        media {
+            bindings = <&to 5>;
+            key-positions = <19 26>;
+            slow-release;
+            layers = <0>;
+        };
     };
 
     keymap {
