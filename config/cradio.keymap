@@ -34,7 +34,7 @@
         stickyshift: stickyshift {
             compatible = "zmk,behavior-hold-tap";
             label = "STICKYSHIFT";
-            bindings = <&kp>, <&sk>;
+            bindings = <&lt>, <&sk>;
 
             #binding-cells = <2>;
             tapping-term-ms = <150>;
@@ -64,13 +64,16 @@
             bindings = <&kp ENTER>;
             key-positions = <13 16>;
             slow-release;
+            timeout-ms = <50>;
+            layers = <0>;
         };
 
         tab {
             bindings = <&kp TAB>;
             key-positions = <13 12>;
             slow-release;
-            require-prior-idle-ms = <200>;
+            timeout-ms = <50>;
+            layers = <0>;
         };
 
         clear_BT {
@@ -145,10 +148,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W             &kp E               &kp R                 &kp T           &kp Y      &kp U                  &kp I                    &kp O                  &kp P
-&kp A             &kp S             &kp D               &kp F                 &kp G           &kp H      &kp J                  &kp K                    &kp L                  &kp SEMI
-&brml LEFT_GUI Z  &brml LEFT_ALT X  &brml LEFT_SHIFT C  &brml LEFT_CONTROL V  &kp B           &kp N      &brmr RIGHT_CONTROL M  &brmr RIGHT_SHIFT COMMA  &brmr LEFT_ALT PERIOD  &brmr RIGHT_GUI SLASH
-                                                        &lt 1 ESCAPE          &lt 2 RETURN    &kp SPACE  &kp BACKSPACE
+&kp Q             &kp W             &kp E               &kp R                 &kp T                        &kp Y      &kp U                  &kp I                    &kp O                  &kp P
+&kp A             &kp S             &kp D               &kp F                 &kp G                        &kp H      &kp J                  &kp K                    &kp L                  &kp SEMI
+&brml LEFT_GUI Z  &brml LEFT_ALT X  &brml LEFT_SHIFT C  &brml LEFT_CONTROL V  &kp B                        &kp N      &brmr RIGHT_CONTROL M  &brmr RIGHT_SHIFT COMMA  &brmr LEFT_ALT PERIOD  &brmr RIGHT_GUI SLASH
+                                                        &lt 1 ESCAPE          &stickyshift 2 LEFT_SHIFT    &kp SPACE  &kp BACKSPACE
             >;
         };
 
