@@ -147,6 +147,14 @@
             timeout-ms = <50>;
             layers = <0>;
         };
+
+        coloncombo {
+            bindings = <&kp COLON>;
+            key-positions = <7 8>;
+            layers = <0>;
+            timeout-ms = <50>;
+            slow-release;
+        };
     };
 
     keymap {
