@@ -87,20 +87,6 @@
             layers = <3>;
         };
 
-        F11_shortcut {
-            bindings = <&kp F11>;
-            key-positions = <7 9>;
-            layers = <1>;
-            slow-release;
-        };
-
-        F12_shortcut {
-            bindings = <&kp F12>;
-            key-positions = <9 8>;
-            layers = <1>;
-            slow-release;
-        };
-
         lparen {
             bindings = <&kp LEFT_PARENTHESIS>;
             key-positions = <16 17>;
@@ -141,16 +127,9 @@
             timeout-ms = <50>;
         };
 
-        shiftcombo {
-            bindings = <&sk LEFT_SHIFT>;
-            key-positions = <17 18>;
-            timeout-ms = <50>;
-            layers = <0>;
-        };
-
         coloncombo {
             bindings = <&kp COLON>;
-            key-positions = <27 28>;
+            key-positions = <19 18>;
             layers = <0>;
             timeout-ms = <50>;
             slow-release;
@@ -158,7 +137,7 @@
 
         question {
             bindings = <&kp QUESTION>;
-            key-positions = <26 27>;
+            key-positions = <19 17>;
             timeout-ms = <50>;
             slow-release;
             layers = <0>;
