@@ -203,7 +203,7 @@
 
         nav {
             bindings = <
-&kp F1                &kp F2            &kp SPACE               &kp F4                    &kp F5           &kp F6      &kp F7                         &kp F8                     &kp F9              &kp F10
+&kp F1                &kp ENTER         &kp SPACE               &kp F4                    &kp F5           &kp F6      &kp F7                         &kp F8                     &kp F9              &kp F10
 &kp LA(TAB)           &kp LC(L)         &kp LG(LC(LS(F1)))      &kp LG(LS(LC(F2)))        &kp LC(LS(M))    &kp LEFT    &kp DOWN                       &kp UP                     &kp RIGHT           &kp DELETE
 &brml LEFT_GUI LC(A)  &brml LALT LC(X)  &brml LEFT_SHIFT LC(C)  &brml LEFT_CONTROL LC(V)  &kp LC(T)        &kp HOME    &brmr RIGHT_CONTROL PAGE_DOWN  &brmr RIGHT_SHIFT PAGE_UP  &brmr LEFT_ALT END  &brmr RIGHT_GUI INSERT
                                                                 &trans                    &none            &caps_word  &kp CAPS
