@@ -45,6 +45,16 @@
             tapping-term-ms = <150>;
             flavor = "tap-preferred";
         };
+
+        holdtap: holdtap {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HOLDTAP";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            flavor = "tap-preferred";
+        };
     };
 
     conditional_layers {
@@ -174,7 +184,7 @@
         default_layer {
             bindings = <
 &kp Q             &kp W             &kp E               &kp R                 &kp T                           &kp Y      &kp U                  &kp I                    &kp O                  &kp P
-&kp A             &kp S             &kp D               &kp F                 &kp G                           &kp H      &kp J                  &kp K                    &kp L                  &kp SEMI
+&kp A             &kp S             &kp D               &kp F                 &kp G                           &kp H      &kp J                  &kp K                    &kp L                  &holdtap COLON SEMICOLON
 &brml LEFT_GUI Z  &brml LEFT_ALT X  &brml LEFT_SHIFT C  &brml LEFT_CONTROL V  &kp B                           &kp N      &brmr RIGHT_CONTROL M  &brmr RIGHT_SHIFT COMMA  &brmr LEFT_ALT PERIOD  &brmr RIGHT_GUI SLASH
                                                         &lt 1 ESCAPE          &stickyshiftmo 2 RIGHT_SHIFT    &kp SPACE  &kp BACKSPACE
             >;
