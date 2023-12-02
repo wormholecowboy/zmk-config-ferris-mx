@@ -182,9 +182,9 @@
 
         nav {
             bindings = <
-&kp F1                &kp ENTER         &kp SPACE               &kp F4                    &kp F5           &kp F6      &kp F7                         &kp F8                     &kp F9              &kp F10
-&kp LA(TAB)           &kp LC(L)         &kp LG(LC(LS(F1)))      &kp LG(LS(LC(F2)))        &kp LC(LS(M))    &kp LEFT    &kp DOWN                       &kp UP                     &kp RIGHT           &kp DELETE
-&brml LEFT_GUI LC(A)  &brml LALT LC(X)  &brml LEFT_SHIFT LC(C)  &brml LEFT_CONTROL LC(V)  &kp LC(T)        &kp HOME    &brmr RIGHT_CONTROL PAGE_DOWN  &brmr RIGHT_SHIFT PAGE_UP  &brmr LEFT_ALT END  &brmr RIGHT_GUI INSERT
+&none                 &kp ENTER         &kp SPACE               &none                     &none            &none       &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS  &kp C_AC_DESKTOP_SHOW_ALL_APPLICATIONS  &kp C_AC_HOME       &none
+&kp LA(TAB)           &kp LC(L)         &kp LG(LA(F1))          &kp LG(LA(F2))            &kp LC(LS(M))    &kp LEFT    &kp DOWN                           &kp UP                                  &kp RIGHT           &kp DELETE
+&brml LEFT_GUI LC(A)  &brml LALT LC(X)  &brml LEFT_SHIFT LC(C)  &brml LEFT_CONTROL LC(V)  &kp LC(T)        &kp HOME    &brmr RIGHT_CONTROL PAGE_DOWN      &brmr RIGHT_SHIFT PAGE_UP               &brmr LEFT_ALT END  &brmr RIGHT_GUI INSERT
                                                                 &trans                    &none            &caps_word  &kp CAPS
             >;
         };
