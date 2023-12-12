@@ -177,10 +177,10 @@
 
         nav {
             bindings = <
-&kp LC(Q)             &kp LC(W)         &kp SPACE               &kp ENTER                 &kp LG(LS(S))    &none       &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS  &kp C_AC_DESKTOP_SHOW_ALL_APPLICATIONS  &kp C_AC_HOME       &none
+&kp LC(C_PP)          &kp LC(W)         &kp SPACE               &kp ENTER                 &kp LG(LS(S))    &none       &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS  &kp C_AC_DESKTOP_SHOW_ALL_APPLICATIONS  &none               &none
 &kp LA(TAB)           &kp LC(L)         &kp LG(LS(LC(COMMA)))   &kp LG(LC(LS(PERIOD)))    &kp LC(LS(M))    &kp LEFT    &kp DOWN                           &kp UP                                  &kp RIGHT           &kp DELETE
 &brml LEFT_GUI LC(A)  &brml LALT LC(X)  &brml LEFT_SHIFT LC(C)  &brml LEFT_CONTROL LC(V)  &kp LC(T)        &kp HOME    &brmr RIGHT_CONTROL PAGE_DOWN      &brmr RIGHT_SHIFT PAGE_UP               &brmr LEFT_ALT END  &brmr RIGHT_GUI INSERT
-                                                                &trans                    &none            &caps_word  &kp CAPS
+                                                                &trans                    &kp C_NEXT       &caps_word  &kp CAPS
             >;
         };
 
