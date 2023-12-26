@@ -161,6 +161,22 @@
             slow-release;
             layers = <0>;
         };
+
+        enter-numpad {
+            bindings = <&kp ENTER>;
+            key-positions = <15 16>;
+            slow-release;
+            layers = <4>;
+            timeout-ms = <50>;
+        };
+
+        to-0 {
+            bindings = <&to 0>;
+            key-positions = <18 17>;
+            slow-release;
+            layers = <4>;
+            timeout-ms = <50>;
+        };
     };
 
     keymap {
