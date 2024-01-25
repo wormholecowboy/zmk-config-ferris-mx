@@ -83,52 +83,28 @@
             layers = <0>;
         };
 
-        tab {
-            bindings = <&kp TAB>;
-            key-positions = <13 12>;
-            slow-release;
-            timeout-ms = <50>;
-            layers = <0>;
-        };
-
-        lparen {
-            bindings = <&kp LEFT_PARENTHESIS>;
-            key-positions = <16 17>;
-            layers = <2>;
-            slow-release;
-            timeout-ms = <50>;
-        };
-
-        rparen {
-            bindings = <&kp RIGHT_PARENTHESIS>;
-            key-positions = <17 18>;
-            layers = <2>;
-            slow-release;
-            timeout-ms = <50>;
-        };
-
-        ampersand {
-            bindings = <&kp AMPERSAND>;
-            key-positions = <6 7>;
-            slow-release;
-            layers = <2>;
-            timeout-ms = <50>;
-        };
-
-        star {
-            bindings = <&kp ASTERISK>;
-            key-positions = <7 8>;
-            slow-release;
-            layers = <2>;
-            timeout-ms = <50>;
-        };
-
         media {
             bindings = <&to 5>;
             key-positions = <19 26>;
             slow-release;
             layers = <0>;
             timeout-ms = <50>;
+        };
+
+        reaper {
+            bindings = <&to 7>;
+            key-positions = <19 3>;
+            timeout-ms = <50>;
+            slow-release;
+            layers = <0>;
+        };
+
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <13 12>;
+            slow-release;
+            timeout-ms = <50>;
+            layers = <0>;
         };
 
         capsword {
@@ -163,6 +139,38 @@
             timeout-ms = <50>;
         };
 
+        lparen {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <16 17>;
+            layers = <2>;
+            slow-release;
+            timeout-ms = <50>;
+        };
+
+        rparen {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <17 18>;
+            layers = <2>;
+            slow-release;
+            timeout-ms = <50>;
+        };
+
+        ampersand {
+            bindings = <&kp AMPERSAND>;
+            key-positions = <6 7>;
+            slow-release;
+            layers = <2>;
+            timeout-ms = <50>;
+        };
+
+        star {
+            bindings = <&kp ASTERISK>;
+            key-positions = <7 8>;
+            slow-release;
+            layers = <2>;
+            timeout-ms = <50>;
+        };
+
         MissionControl {
             bindings = <&kp C_AC_DESKTOP_SHOW_ALL_WINDOWS>;
             key-positions = <8 7 6>;
@@ -193,14 +201,6 @@
             slow-release;
             timeout-ms = <50>;
             layers = <1>;
-        };
-
-        reaper {
-            bindings = <&to 7>;
-            key-positions = <19 3>;
-            timeout-ms = <50>;
-            slow-release;
-            layers = <0>;
         };
 
         nav_enter {
