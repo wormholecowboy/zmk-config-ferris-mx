@@ -213,7 +213,7 @@
 
         undo {
             bindings = <&kp LC(Z)>;
-            key-positions = <20 21>;
+            key-positions = <21 22>;
             timeout-ms = <50>;
             slow-release;
             layers = <1>;
@@ -221,7 +221,7 @@
 
         cmd_backtick {
             bindings = <&kp LG(GRAVE)>;
-            key-positions = <10 11>;
+            key-positions = <1 2>;
             timeout-ms = <50>;
             slow-release;
             layers = <1>;
@@ -246,6 +246,14 @@
         play_pause {
             bindings = <&kp C_PLAY_PAUSE>;
             key-positions = <12 11>;
+            timeout-ms = <50>;
+            slow-release;
+            layers = <1>;
+        };
+
+        skip_track {
+            bindings = <&kp C_NEXT>;
+            key-positions = <14 13>;
             timeout-ms = <50>;
             slow-release;
             layers = <1>;
