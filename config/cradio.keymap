@@ -211,8 +211,8 @@
             layers = <1>;
         };
 
-        undo {
-            bindings = <&kp LC(Z)>;
+        mac_undo {
+            bindings = <&kp LG(Z)>;
             key-positions = <21 22>;
             timeout-ms = <50>;
             slow-release;
