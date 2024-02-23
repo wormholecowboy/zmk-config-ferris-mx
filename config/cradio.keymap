@@ -274,6 +274,14 @@
             slow-release;
             layers = <1>;
         };
+
+        delete {
+            bindings = <&kp DEL>;
+            key-positions = <13 22>;
+            timeout-ms = <50>;
+            slow-release;
+            layers = <1>;
+        };
     };
 
     keymap {
